@@ -1,0 +1,81 @@
+/* NavBar */
+
+.navbar{
+    list-style: none;
+    background-color: gray;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.navitem{
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 25px;
+    padding: 10px;
+}
+/* Alert Messages */
+
+.danger{
+    background-color: #FFCCCB;
+}
+
+.sucess{
+    background-color: #C7F6B6;
+}
+
+/* Form */
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    margin: 6% auto;
+    background: lightgray;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+.form-group{
+    margin: 50px 50px 20px 50px;
+    top: 180px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit{
+    width: 30%;
+    height: 10%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background-color: #0705f7;
+    color: white;
+    border: none;
+    border-radius: 4%;
+    font-size: 18px;
+}
+
+
+
